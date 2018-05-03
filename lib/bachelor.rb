@@ -53,5 +53,5 @@ def get_average_age_for_season(data, season)
     total_age += contestant["age"].to_i 
     contestant_number += 1 
   end 
-    (total_age / contestant_number).round(1) # 1 rounds to the nearest number.
+    (total_age / contestant_number).round(0) # 1 rounds to the nearest number.
 end
