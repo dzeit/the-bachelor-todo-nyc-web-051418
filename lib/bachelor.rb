@@ -25,7 +25,7 @@ def get_contestant_name(data, occupation)
 end
 
 def count_contestants_by_hometown(data, hometown)
-  hometown = 0 
+  counter = 0 
   data.each do |season, contestant_array|
     contestant_array.each do |contestant|
       binding.pry 
