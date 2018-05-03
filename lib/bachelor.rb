@@ -40,7 +40,7 @@ def get_occupation(data, hometown)
   counter = 0 
   data.each do |season, contestant_array|
     contestant_array.each do |contestant|
-      if contestant["ocupation"] == occupation 
+      if contestant["occupation"] == occupation 
         return contestant["occupation"] 
       end 
     end 
